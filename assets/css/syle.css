@@ -1,0 +1,155 @@
+/*Letras*/
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+/*Orden horizontal aplicación*/
+.app {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+/*Sección Principal*/
+.main {
+  width: 78%;
+  background-color: #e8ebe4;
+  border-color: #bec1bb;
+  border-left-width: 1px;
+  border-style: solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.main img {
+  width: 18rem;
+  height: 18rem;
+}
+.main .titulo {
+font-size: 3.5rem;
+color: #1b1f21;
+}
+.main .subtitle {
+  color: #444749;
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: normal;
+}
+.subtitle b, .open-sans b {
+  font-weight: bold;
+}
+
+/*Menú de Chats*/
+.navbar {
+  width: 22%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/*Listado sin puntos*/
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/*Separación Listado*/
+li {
+  gap: 1rem;
+}
+
+/*General Chats*/
+.orden { 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  margin: 0;
+  padding: 1.3rem 4.5rem;
+  width: 100%;
+  border-color: #e8ebe4;
+  border-top-style: double;
+  border-width: 2px; 
+}
+
+.img-redonda {
+  border-radius: 50%;
+  height: 3.75rem;
+  width: 3.75rem;
+  border-color: #bec1bb;
+  border-style: double;
+  border-width: 2px;
+}
+.texto h3 {
+  color: #1b1f21;
+  font-size: 1rem;
+}
+
+.texto p {
+  color: #444749;
+  font-size: 0.85rem;
+}
+
+/*María*/
+.maria { 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0;
+  padding: 1rem 6.5rem 1rem 6.5rem;
+  width: 100%;
+  border-color: #e8ebe4;
+  border-top-style: double;
+  border-bottom-style: double;
+  border-width: 2px; 
+}
+.maria .img-text {
+display: flex;
+align-items: center;
+gap: 1rem;
+}
+.maria .icons {
+  display: flex;
+  gap: 1rem;
+}
+.img-maria {
+  border-radius: 50%;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-color: #bec1bb;
+  border-style: double;
+  border-width: 2px;
+}
+.texto-maria h3 {
+  color: #1b1f21;
+  font-size: 1rem;
+}
+.texto-maria p {
+  color: #828485;
+  font-size: 0.625rem;
+}
+
+/*Botón*/
+button {
+  background-color: #a491d2;
+  width: 12rem;
+  height: 3.2rem;
+  color: white;
+  border: none;
+  font-size: 1.1rem;
+  margin: 2rem; 
+}
+
